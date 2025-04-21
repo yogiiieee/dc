@@ -12,7 +12,7 @@ public class Client {
             String response = helloRef.sayHello();
             System.out.println("Response from server: " + response);
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 }

@@ -27,7 +27,6 @@ public class Server {
             System.out.println("Server ready and waiting...");
             orb.run();
         } catch (Exception e) {
-            System.err.println("ERROR: " + e);
             e.printStackTrace(System.out);
         }
     }

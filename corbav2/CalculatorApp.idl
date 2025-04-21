@@ -1,0 +1,5 @@
+module CalculatorApp {
+    interface Calculator {
+        long operation(in long arg1, in long arg2, in string method);
+    };
+};
